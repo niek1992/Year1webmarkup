@@ -1,0 +1,59 @@
+
+
+
+#home {
+    
+	background-color: rgb(127,127,127) ;		/* kleurtje donkergrijs */
+	font-size: 1em; 							/* fontsize 1em = 16px ter referentie */
+	color: #2f2e2d; 							/* kleurtje van text iets minder donkergrijs */
+	
+}
+
+#zeepaard {
+	
+	font-size: 1.2em;							/* lettertype grootte 1,2 keer groter dan inherit */
+	font-style: normal;							/* normale letters */
+	font-weight: normal; 						/* dikgedrukte letters */			
+	text-align: center; 						/* text centreren */
+	color: #00000;								/* kleurtje ergens tussen wit en lichtgrijs */
+	background: url("/img/horses.jpeg");	
+}
+
+h1, h2, h3 { 
+	
+	font-family: calibri;						/* gebruikte font Calibri */
+	
+}
+
+ 
+h1 { 
+	
+	font-size: 1.2em;							/* lettertype grootte 1,2 keer groter dan inherit */
+	font-style: normal;							/* normale letters */
+	font-weight: bold; 							/* dikgedrukte letters */			
+	text-transform: uppercase;					/* alle letters hoofdletters */
+	text-align: center; 						/* text centreren */
+	color: #cdcdcd;								/* kleurtje ergens tussen wit en lichtgrijs */
+	
+}
+	
+h2 {
+
+	font-style: italic;							/* schuine letters */
+	font-size: 2.2em;        					/* fontsize 2,2 keer groter dan inherit */ 
+	text-transform: capitalize;					/* alle eerste letters van een woord in een zin HOOFDLETTERS */
+	color: #ffffff;								/* kleurtje van h2 = wit */
+}
+
+h3 { 
+
+	font-style: bold; 							/* gewoon omdat ik bold leuker vind dan normal */
+	font-size: 3em;								/* lettertype grootte 3 maal groter dan inherit */
+}
+
+p  {
+	line-height: 1.5em;   						/* afstand tussen 2 regels paragrafen */
+	text-indent: 2em;							/* afstand eerste regel van een paragraaf inspringen met 2em */
+	
+	
+}

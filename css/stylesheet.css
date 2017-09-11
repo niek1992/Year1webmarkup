@@ -1,0 +1,48 @@
+
+
+
+body {
+    
+	background-color: rgb(127,127,127) ;
+	font-size: 1em; 
+	color: black; 
+	
+	
+}
+
+h1, h2, h3 { 
+	
+	font-family: calibri;
+	
+}
+
+ 
+h1 { 
+	
+	font-size: 1.2em;							/* lettertype grootte 1,2 keer groter dan inherit */
+	font-style: normal;							/* normale letters */
+	font-weight: bold; 							/* dikgedrukte letters */			
+	text-transform: uppercase;
+	text-align: center; 
+	
+}
+	
+h2 {
+
+	font-style: italic;							/* schuine letters */
+	font-size: 2.2em;        					/* lettertype grootte 2,2 keer groter dan inherit */ 
+	text-transform: capitalize;					/* alle eerste letters van een woord in een zin HOOFDLETTERS */
+}
+
+h3 { 
+
+	font-style: narrower; 						/* gewoon omdat ik narrower leuker vind dan normal */
+	font-size: 3em;								/* lettertype grootte 3 maal groter dan inherit */
+}
+
+p  {
+	line-height: 1.5em;   						/* afstand tussen 2 regels paragrafen */
+	text-indent: 2em;							/* afstand eerste regel van een paragraaf inspringen met 2em */
+	
+	
+}

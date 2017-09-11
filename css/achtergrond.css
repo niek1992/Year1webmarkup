@@ -1,0 +1,18 @@
+
+
+
+body {
+	
+	background-image: url("HORSES.jpeg") ;		/* 
+	background-repeat: space;					/* achtergrond zo vaak herhalen als past en de ruimte tussen de afbeeldingen gelijk verdelen */
+	font-size: 1em; 							/* fontsize 1em = 16px ter referentie */
+	background-attachment: fixed ;				/* achtergrond vast op pagina, niet mee scrollend */
+	
+}
+
+p {
+	font-size: 1.2em;							/* lettertype grootte 1,2 keer groter dan inherit */
+	font-style: normal;							/* normale letters */
+	font-weight: bold; 							/* dikgedrukte letters */			
+	text-transform: uppercase;					/* alle letters hoofdletters */
+	text-align: center; 						/* text centreren */

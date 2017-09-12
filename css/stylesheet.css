@@ -7,6 +7,7 @@
 	font-size: 1em; 							/* fontsize 1em = 16px ter referentie */
 	color: #2f2e2d; 							/* kleurtje van text iets minder donkergrijs */
 	
+	
 }
 
 #zeepaard {
@@ -15,8 +16,16 @@
 	font-style: normal;							/* normale letters */
 	font-weight: normal; 						/* dikgedrukte letters */			
 	text-align: center; 						/* text centreren */
-	color: #00000;								/* kleurtje ergens tussen wit en lichtgrijs */
-	background: url("/img/horses.jpeg");	
+	background-color: rgb(127,127,127) ;		/* kleurtje donkergrijs */
+	color: #ffffff;								/* kleurtje ergens tussen wit en lichtgrijs */
+	background: url("../IMG/horses.jpg");		/* zeepaardje als achtergrond */
+	Background-image: #ccccc;					/* achtergrond kleurtje & */
+	background-repeat: no-repeat;				/* geen herhaling van image */
+    background-position: center;				/* positionering center */
+	background-attachment: fixed;				/* niet mee scrollend */
+	Background-size: 100% 100%;					/* volledig vullend */
+	
+	
 }
 
 h1, h2, h3 { 
@@ -57,3 +66,4 @@ p  {
 	
 	
 }
+	

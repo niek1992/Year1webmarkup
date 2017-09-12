@@ -6,6 +6,8 @@ body {
     background-position: center;				/* positionering center */
 	background-attachment: fixed;				/* niet mee scrollend */
 	Background-size: 100% 100%;					/* volledig vullend */
+	Font-family: calibri; 						/* fontfamily calibri */
+	font-size: 100%;
 }
 
 nav {											/* css-styling van element nav (navigatie */
@@ -35,3 +37,13 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
+
+fieldset {
+	max-width: 300px;
+	text-align: left;
+}
+
+width: 400px;
+	padding: 2px;						
+	border: 2px black;						/* om aan te geven waar momenteel de borders zitten, moeten nog verwijderd worden. */

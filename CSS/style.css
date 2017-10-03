@@ -1,25 +1,25 @@
 body {
     margin: 0;
 	background: url("../IMG/background.jpeg");	/* Waagplein + wit */
-	Background-image: #ccccc;					/* achtergrond kleurtje & */
+	Background-color: #cccccc;					/* achtergrond kleurtje & */
 	background-repeat: no-repeat;				/* geen herhaling van image */
     background-position: center;				/* positionering center */
 	background-attachment: fixed;				/* niet mee scrollend */
-	Background-size: 100% 100%;					/* volledig vullend */
+	Background-size: cover;						/* volledig vullend */
 	Font-family: calibri; 						/* fontfamily calibri */
 	font-size: 100%;
 }
 
 nav {											/* css-styling van element nav (navigatie */
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    margin: 0;									/* margin helemaal links bovenin */
+    padding: 0;									/* geen padding */
+    overflow: hidden;							/* zorgen dat scrollbar niet verschijnt */
+    background-color: #ffaf1c;					/* oranje */
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -31,19 +31,44 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #002642;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #002642;
 }
 
 
-fieldset {
-	max-width: 300px;
-	text-align: left;
+
+/* hieronder volgt de opmaak voor het contactformulier */
+
+
+fieldset{
+	width: 50%;
+	margin-left: 2%;
+	
 }
 
-width: 400px;
-	padding: 2px;						
-	border: 2px black;						/* om aan te geven waar momenteel de borders zitten, moeten nog verwijderd worden. */
+label{
+	margin-top: 1%;
+	
+	
+}
+
+select{
+	margin-top: 1%;
+}
+
+input{
+	margin-top: 1%;
+	margin-left: 5%;
+	
+}
+	
+
+	
+
+
+
+
+
